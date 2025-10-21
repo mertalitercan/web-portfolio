@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
             <h3 className="text-lg font-semibold text-white mb-2">Mertali Tercan</h3>
-            <p className="text-gray-400 text-sm">{"CS @ "}</p>
+            <p className="text-gray-400 text-sm">{"CS @ UofT"}</p>
           </div>
 
           <div className="flex items-center gap-6">
@@ -16,7 +16,7 @@ export default function Footer() {
               className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
             >
               <Mail className="h-5 w-5" />
-              <span className="text-sm">contact@example.com</span>
+              <span className="text-sm">mertali.tercan@mail.utoronto.ca</span>
             </a>
 
             <a
@@ -42,7 +42,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t text-center">
-          <p className="text-gray-400 text-sm">© 2024 Mertali Tercan. All rights reserved.</p>
+          <p className="text-gray-400 text-sm">© 2025 Mertali Tercan. All rights reserved.</p>
         </div>
       </div>
     </footer>

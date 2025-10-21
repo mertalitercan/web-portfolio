@@ -26,18 +26,17 @@ export default function About() {
           className="max-w-4xl mx-auto"
         >
           <Card>
-            <CardContent className="p-8 py-8">
+            <CardContent className="p-8 px-8 py-1.5">
               <p className="text-lg mb-4">
-                I'm a passionate full-stack developer with expertise in building modern web applications. With a strong
-                foundation in both frontend and backend technologies, I create seamless, user-focused experiences that
-                solve real-world problems.
+                {/* Fixed missing text content */}I am passionate about creating high-quality software solutions that
+                meet user needs and exceed expectations.
               </p>
               <p className="text-lg mb-4">
                 My approach combines clean code principles with innovative solutions, ensuring applications are not only
                 functional but also maintainable and scalable.
               </p>
               <div className="mt-8 pt-8 border-t">
-                <div className="flex flex-wrap gap-2.5 mb-0">
+                <div className="flex flex-wrap mb-0 text-left gap-4">
                   <Badge
                     variant="outline"
                     className="text-sm px-3 py-[3px] border-2 border-blue-400/50 bg-gradient-to-r from-blue-500/20 to-cyan-500/20 hover:from-blue-500/30 hover:to-cyan-500/30 hover:border-blue-400 transition-all duration-200"

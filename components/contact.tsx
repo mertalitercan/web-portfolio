@@ -61,7 +61,7 @@ export default function Contact() {
   return (
     <>
       <section id="contact" className="py-20 px-4 md:px-6 lg:px-8 scroll-mt-16">
-        <div className="container mx-auto max-w-2xl">
+        <div className="container mx-auto max-w-xl">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -82,8 +82,8 @@ export default function Contact() {
             viewport={{ once: true }}
           >
             <Card>
-              <CardContent className="p-8 px-6 py-7">
-                <div className="flex items-center gap-3 mb-6">
+              <CardContent className="p-8 px-6 py-1">
+                <div className="flex items-center mb-6 gap-3">
                   <div className="p-3 rounded-full bg-primary/10 text-primary">
                     <MessageSquare className="h-6 w-6" />
                   </div>

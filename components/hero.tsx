@@ -125,7 +125,7 @@ export default function Hero() {
         className="text-center max-w-3xl mx-auto"
       >
         <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-4">
-          <span className="text-primary mx-0 my-0 tracking-normal gap-0">Mertali  Tercan</span>
+          <span className="text-primary mx-0 my-0 gap-0 text-center tracking-tight">Mertali Tercan    </span>
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-8">
           Building robust web applications from front to back
@@ -160,7 +160,7 @@ export default function Hero() {
               animate={{ y: [0, 4, 0] }}
               transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
             >
-              <svg className="w-5 h-5 text-primary mx-0 my-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-5 h-5 text-primary mx-0 leading-7 my-[3px]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
               </svg>
             </motion.div>

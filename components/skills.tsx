@@ -42,7 +42,7 @@ export default function Skills() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
           viewport={{ once: true }}
-          className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 justify-center max-w-4xl mx-auto"
+          className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 justify-center max-w-3xl mx-auto"
         >
           {skillCategories.map((category, categoryIndex) => (
             <motion.div
@@ -51,9 +51,9 @@ export default function Skills() {
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.3, delay: categoryIndex * 0.1 }}
               viewport={{ once: true }}
-              className="bg-card border rounded-lg p-6 md:p-8 hover:shadow-lg transition-shadow"
+              className="bg-card border rounded-lg p-6 md:p-8 hover:shadow-lg transition-shadow md:py-7"
             >
-              <h3 className="text-xl font-semibold mb-6 text-foreground">{category.title}</h3>
+              <h3 className="text-xl font-semibold text-foreground mb-8">{category.title}</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {category.skills.map((skill, skillIndex) => (
                   <motion.div
