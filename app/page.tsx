@@ -9,8 +9,8 @@ import ThemeToggle from "@/components/theme-toggle"
 import Footer from "@/components/footer"
 
 export const metadata: Metadata = {
-  title: "Full-Stack Developer Portfolio",
-  description: "A professional portfolio showcasing full-stack development skills and projects",
+  title: "Mertali Tercan",
+  description: "Portfolio",
 }
 
 export default function Home() {
