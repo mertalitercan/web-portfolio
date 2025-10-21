@@ -128,7 +128,7 @@ export default function Hero() {
           <span className="text-primary mx-0 my-0 gap-0 text-center tracking-tight">Mertali Tercan    </span>
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-          Building robust web applications from front to back
+          Chasing the infinite, ever-evolving rhythm of flow
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button
