@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs"
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts"
-import { getAnalytics } from "@/lib/analytics-client"
+import { getAnalytics } from "@/app/actions/analytics"
 import { Eye, Download, Activity } from "lucide-react"
 
 type AnalyticsData = {

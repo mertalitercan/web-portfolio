@@ -2,7 +2,7 @@
 
 import { useEffect } from "react"
 import { usePathname } from "next/navigation"
-import { trackPageView } from "@/lib/analytics-client"
+import { trackPageView } from "@/app/actions/analytics"
 
 export default function AnalyticsTracker() {
   const pathname = usePathname()
@@ -26,7 +26,7 @@ export default function AnalyticsTracker() {
             localStorage.setItem("visitor_id", visitorId)
           }
 
-          trackPageView({
+          await trackPageView({
             path: pathname,
             timestamp: Date.now(),
             referrer: document.referrer,
