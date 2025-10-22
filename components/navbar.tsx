@@ -31,7 +31,7 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-40 bg-background/80 backdrop-blur-sm border-b border-border/20">
       <div className="max-w-6xl mx-auto px-6 py-4">
-        <div className="hidden md:flex items-center justify-center space-x-12">
+        <div className="hidden md:flex items-center justify-center gap-12">
           {navItems.map((item) => (
             <a
               key={item.href}
